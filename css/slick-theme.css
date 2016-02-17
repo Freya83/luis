@@ -194,9 +194,15 @@
         right: auto;
         left: -2.5%;
     }
-
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .slick-dots li
+    {
 
+        margin: 0px;
+
+    }
+}
 @media (max-width: 767px) {
     .slick-prev,
     .slick-next
