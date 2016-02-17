@@ -24,8 +24,8 @@
     position: absolute;
     top: 50%;
     display: block;
-    width: 39px;
-    height: 44px;
+    width: 29.5px;
+    height: 33.33px;
     padding: 0;
     margin-top: -10px\9; /*lte IE 8*/
     -webkit-transform: translate(0, -50%);
@@ -89,7 +89,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    top: -10px;
 
     display: block;
 
@@ -144,7 +144,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 4px;
     line-height: 20px;
 
     position: absolute;

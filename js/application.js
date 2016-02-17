@@ -5,50 +5,56 @@ $(document).ready(function (e) {
     $(function () {
         $(".navbar-nav li a").on('click', function (e) {
             e.preventDefault();
-            $(this).parent().addClass('active');
-            $(this).parent().siblings().removeClass('active');            
+            var $target = this.hash.substring(1);  
 
-            var $target = this.hash.substring(1);           
-            
-            switch ($target) {
-              case 'digital':
-                $('.navbar-brand').removeClass('active-right');
-                $('.navbar-brand').addClass('active-left');
-                break;
-              case 'identity':
-                 $('.navbar-brand').removeClass('active-right');
-                 $('.navbar-brand').addClass('active-left');             
-                break;
-              case 'marks':
-                $('.navbar-brand').removeClass('active-left');
-                $('.navbar-brand').addClass('active-right');
-                break;
-              case 'product':
-                $('.navbar-brand').removeClass('active-left');
-                $('.navbar-brand').addClass('active-right');
-                break;
-              case 'contact':
-                $('.navbar-brand').removeClass('active-left');
-                $('.navbar-brand').addClass('active-right');
-                break;
-              case 'about':
-                $('.navbar-brand').removeClass('active-right');
-                $('.navbar-brand').addClass('active-left');
-                break;
-              }
+            if ($(this).hasClass('disabled')) {
+
+              //do nothing
+            }
+            else {
+              $(this).parent().addClass('active');
+              $(this).parent().siblings().removeClass('active');
               
-
-            $('.content').each(function () {                
-                if (($(this).attr('id')) === $target) {
-                    $(this).fadeIn(500);
-                    if ($(window).width() >= 768) {   
-                      $('.slideshow').slick('setPosition');
-                    }
+              switch ($target) {
+                case 'digital':
+                  $('.navbar-brand').removeClass('active-right');
+                  $('.navbar-brand').addClass('active-left');
+                  break;
+                case 'identity':
+                   $('.navbar-brand').removeClass('active-right');
+                   $('.navbar-brand').addClass('active-left');             
+                  break;
+                case 'marks':
+                  $('.navbar-brand').removeClass('active-left');
+                  $('.navbar-brand').addClass('active-right');
+                  break;
+                case 'product':
+                  $('.navbar-brand').removeClass('active-left');
+                  $('.navbar-brand').addClass('active-right');
+                  break;
+                case 'contact':
+                  $('.navbar-brand').removeClass('active-left');
+                  $('.navbar-brand').addClass('active-right');
+                  break;
+                case 'about':
+                  $('.navbar-brand').removeClass('active-right');
+                  $('.navbar-brand').addClass('active-left');
+                  break;
                 }
-                else {
-                    $(this).hide();        
-                }        
-            });           
+                
+
+              $('.content').each(function () {                
+                  if (($(this).attr('id')) === $target) {
+                      $(this).fadeIn(500);
+                      if ($(window).width() >= 768) {   
+                        $('.slideshow').slick('setPosition');
+                      }
+                  }
+                  else {
+                      $(this).hide();        
+                  }        
+              }); 
+            }          
         });       
     });
     $(function () {
@@ -65,6 +71,7 @@ $(document).ready(function (e) {
     });*/ 
  $(window).load(function () {
   if ($(window).width() >= 768) {
+    $(".navbar-nav li a").addClass('disabled');
     $('#arrow-right, #arrow-left').addClass('active');
       
       $('#home').delay(5000).queue(function(){
@@ -81,6 +88,8 @@ $(document).ready(function (e) {
           });         
           $('#home').fadeOut(200);
           $(".navbar-nav li.digital").addClass('active');
+          $('.navbar-brand').addClass('active-left');
+          $(".navbar-nav li a").removeClass('disabled');
       });
     }
     else {
@@ -92,7 +101,7 @@ $(document).ready(function (e) {
 
   if ($(window).width() >= 768) {
     $('.slideshow').slick({
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 300,
       speed: 500,
