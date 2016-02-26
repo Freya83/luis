@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luis Acevedo</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/passwords.js" type="text/javascript"></script>
+  </head>
+  <body>
+     <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>-->
+        <a class="navbar-brand" href="#"><h1>Luis Acevedo</h1><img src="/images/logo.png"/></a>
+      </div>
+      <div id="navbar" class="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About</a></li>            
+          <li class="digital"><a href="#digital">Digital</a></li>
+          <li><a href="#identity">Identity</a></li>
+          <li><a href="#marks">Marks</a></li>  
+          <li><a href="#product">Product</a></li>        
+          <li><a href="#contact">Contact</a></li>            
+        </ul>
+      </div><!--/.nav-collapse -->
+    </nav>
+
+    <div class="wrapper">
+      <div id="home" class="content"> 
+        <div id="arrow-left"></div>
+        <div id="arrow-right"></div>
+        <img src="images/placeholder.jpg"/>
+      </div>
+      <div id="about" class="content">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+
+            <h3>FIRMS:</h3>
+
+            <p>PIRTLE DESIGN:<br> 
+            CREATIVE DIRECTOR <br> 
+            1976 - 1984</p>
+
+            <p>RBMM/THE RICHARDS GROUP: <br> 
+            PRINCIPAL/CREATIVE DIRECTOR <br> 
+            1984 - 2008</p>
+
+            <p>THE RICHARDS GROUP:  <br>  
+            ART DIRECTOR/BRAND CREATIVE<br> 
+            2008 - PRESENT</p>
+
+            <h3 class="disciplines">DISCIPLINES:</h3>
+
+            <p>ADVERTISING<br>
+            BRAND REVITALIZATION<br>
+            BRAND STRATEGY<br>
+            DIGITAL DESIGN<br>
+            EXPERIENTIAL DESIGN<br>
+            INTERACTIVE DESIGN<br>
+            IDENTITY ARCHITECTURE<br>
+            IDENTITY CREATION<br>
+            PACKAGING DESIGN<br>
+            SIGNAGE & WAYFINDING<br>
+            SEMIOTICS</p>
+
+          </div>
+          <div class="col-sm-12 col-md-9 ">
+
+            <h3>CLIENTS BY INDUSTRY:</h3>
+            <p>
+            <strong>APPAREL: </strong>   FRUIT OF THE LOOM, HAROLD’S, TIE-COON TRADING CO., WALMART/WHITE STAG CLOTHING<br>
+            <strong>AUTOMOTIVE: </strong>  ADVANCED AUTO PARTS, FIRESTONE, HYUNDAI, PEP BOYS, SEWELL, S&B FILTERS<br>
+            <strong>BANKING: </strong>   COMPASS BANK, FIRST USA, LOMAS FINANCIAL, PLAINS CAPITAL<br>
+            <strong>COSMETICS: </strong>   BEAUTI-CONTROL, BROWN COSMETICS, FABERGÉ, FAS COSMETICS, MARY KAY COSMETICS, ULTA<br>
+            <strong>EDUCATION: </strong>   AUSTIN COLLEGE, SOUTH UNIVERSITY, TEXAS A&M UNIVERSITY, TRINITY UNIVERSITY, WAKE FOREST<br>
+            <strong>ENERGY: </strong>   ATMOS ENERGY, CURRENT ENERGY, RELIANT ENERGY, STALLWORTH, INC., TXU ENERGY<br>
+            <strong>FINANCIAL SERVICES: </strong>  BEHRINGER HARVARD, BENEFIT MALL, CHARLES SCHWAB, KEY BANK, LPL FINANCIAL, MERRILL LYNCH<br>
+            <strong>FOOD & BEVERAGE:</strong>  CENTRAL MARKET, DR PEPPER, EL PASO CHILE CO., GIANT EAGLE, HEB PLUS, STUBBS BBQ, WILLIAM SONOMA<br>
+            <strong>HEALTHCARE: </strong>   BAYLOR HEALTHCARE, CHILDREN’S MEDICAL, MD ANDERSON, MEDICAL CITY, PRESBYTERIAN HOSPITAL, UT SOUTHWESTERN<br>
+            <strong>HOTEL & RESORTS: </strong>  ARIA, BILTMORE, SOFITEL, VIDANTA RESORTS, WYNDHAM HOTELS<br>
+            <strong>NON-FOR-PROFIT: </strong>   AMERICAN HEART ASSOCIATION, GUIDESTONE, LEWISVILLE HUMANE SOCIETY, SALVATION ARMY,<br>
+            <strong>ORGANIZATIONS: </strong>   AIA CHAPTER OF DALLAS, DALLAS ADVERTISING LEAGUE, DALLAS SOCIETY OF VISUAL COMMUNICATIONS<br>
+            <strong>REAL ESTATE: </strong>   CROW HOLDINGS,  DAVID GRIFFIN REALTY, RICHARD HILL & ASSOCIATES, SOTHEBY’S INTERNATIONAL REALTY, VICTORY PARK<br>
+            <strong>RESTAURANTS: </strong>   BRINKER INTERNATIONAL, CHICK-FIL-A, CHILI’S, DALTS, TGI FRIDAYS, YAPAS<br>
+            <strong>RETAIL: </strong>   AMERICAN GREETINGS, COOKWORKS, HOME DEPOT, NEIMAN MARCUS, SUB-ZERO AND WOLF, THOMASVILLE<br>
+            <strong>TECHNOLOGY: </strong>   AVAYA, CYRIX, EDS, NORTEL, NORTON, SONUS, TEXAS INSTRUMENTS <br>
+            <strong>TELECOMMUNICATIONS:</strong>    AT&T, CELLULAR ONE, METROPCS, NOKIA, SAMSUNG, SPRINT<br>
+            <strong>TRAVEL:</strong>    HOMEAWAY, TRAVELOCITY, TRAVEL WEB<br>
+            <strong>WINE & SPIRITS:</strong>  FROZEN GHOST VODKA, MANCORA SPIRITS, PATRON TEQUILA, TEQUILA NACIONAL, VIRACOCHA </p>
+
+          </div>
+        </div>
+      </div>
+      <div id="digital" class="content slideshow">
+        <div class="slide"><img src="/images/digital/erik.jpg"/><span class="label">MODERNISTS<br>MOBILE APP / EDUCATIONAL</span></div>
+        <div class="slide"><img src="/images/digital/firestone.jpg"/><span class="label">FIRESTONE INDY 5OO<br>MOBILE APP</span></div>
+        <div class="slide"><img src="/images/digital/mindunseen.jpg"/><span class="label">HENRY DARGER / MINDUNSEEN<br>EDUCATIONAL ARTIST SERIES</span></div>
+        <div class="slide"><img src="/images/digital/trinity.jpg"/><span class="label">TRINITY UNIVERSITY<br>VISUALIZATION</span></div>
+        <div class="slide"><img src="/images/digital/subzero.jpg"/><span class="label">SUB-ZERO AND WOLF<br>MICROSITE</span></div>
+        <div class="slide"><img src="/images/digital/kawasaki.jpg"/><span class="label">KAWASAKI USA<br>ZX14R VISUALIZATION</span></div>
+        <div class="slide"><img src="/images/digital/dallas.jpg"/><span class="label">DALLAS CONTEMPORARY<br>SITE REBRAND</span></div>
+        <div class="slide"><img src="/images/digital/biltmore.jpg"/><span class="label">BILTMORE<br>SITE VISUALIZATION</span></div>
+        <div class="slide"><img src="/images/digital/pier1.jpg"/><span class="label">PIER 1 IMPORTS<br>SITE VISUALIZATION</span></div>
+        <div class="slide"><img src="/images/digital/journeyman.jpg"/><span class="label">JOURNEYMAN<br>NON-PROFIT ORGANIZATION</span></div>
+      </div>
+      <div id="identity" class="content slideshow">
+        <div class="slide"><img src="/images/identity/1.jpg"/><span class="label">DALLAS MUSEUM OF ART</span></div>
+        <div class="slide"><img src="/images/identity/2.jpg"/><span class="label">DALLAS MUSEUM OF ART / POSTER SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/3.jpg"/><span class="label">DALLAS MUSEUM OF ART / BROCHURE SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/4.jpg"/><span class="label">DALLAS MUSEUM OF ART / BROCHURE SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/5.jpg"/><span class="label">DALLAS MUSEUM OF ART / WILD POSTING</span></div>
+        <div class="slide"><img src="/images/identity/6.jpg"/><span class="label">DALLAS MUSEUM OF ART / EXHIBIT DESIGN</span></div>
+        <div class="slide"><img src="/images/identity/7.jpg"/><span class="label">DALLAS MUSEUM OF ART / BAG SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/8.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / IDENTITY</span></div>
+        <div class="slide"><img src="/images/identity/9.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / POSTER SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/10.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / BAG SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/11.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">GEE’S BEND EXHIBIT POSTER</span></div>
+        <div class="slide"><img src="/images/identity/12.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">GEE’S BEND EXHIBIT POSTER</span></div>
+        <div class="slide"><img src="/images/identity/13.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">GEE’S BEND EXHIBIT DESIGN</span></div>
+        <div class="slide"><img src="/images/identity/14.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT EXHIBIT POSTERS</span></div>
+        <div class="slide"><img src="/images/identity/15.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT EXHIBIT BROCHURE</span></div>
+        <div class="slide"><img src="/images/identity/16.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT EXHIBIT BROCHURE</span></div>
+        <div class="slide"><img src="/images/identity/17.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT EXHIBIT BAG DESIGN</span></div>
+        <div class="slide"><img src="/images/identity/18.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT EXHIBIT DESIGN</span></div>
+        <div class="slide"><img src="/images/identity/19.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT WILD POSTING</span></div>
+        <div class="slide"><img src="/images/identity/20.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT EXHIBIT BANNER</span></div>
+        <div class="slide"><img src="/images/identity/21.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM / <br class="visible-xs">BASQUIAT MUSEUM BANNERS</span></div>
+        <div class="slide"><img src="/images/identity/22.jpg"/><span class="label">VIRACOCHA PISCO / IDENTITY</span></div>
+        <div class="slide"><img src="/images/identity/23.jpg"/><span class="label">VIRACOCHA PISCO / BOTTLE & LABEL IDENTITY </span></div>
+        <div class="slide"><img src="/images/identity/24.jpg"/><span class="label">VIRACOCHA PISCO / PRODUCT SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/25.jpg"/><span class="label">VIRACOCHA PISCO / BOTTLE SLEEVE</span></div>
+        <div class="slide"><img src="/images/identity/26.jpg"/><span class="label">RED LOBSTER / NEW RESTAURANT IDENTITY </span></div>
+        <div class="slide"><img src="/images/identity/27.jpg"/><span class="label">TEXAS A&M / BROCHURE SYSTEM</span></div>
+        <div class="slide"><img src="/images/identity/28.jpg"/><span class="label">XCEED DIGITAL AGENCY / MANIFESTO</span></div>
+        <div class="slide"><img src="/images/identity/29.jpg"/><span class="label">VICTORY PARK / LOOK BOOK</span></div>       
+      </div>
+      <div id="marks" class="content slideshow">
+        <div class="slide"><img src="/images/marks/1.jpg"/>
+          <span class="label">LEWISVILLE HUMANE SOCIETY<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> JESTER PRODUCTIONS<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> BLITZ SOFTWARE <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> TRAVIS CONSTRUCTION</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/2.jpg"/><span class="label">LISA COBB & ASSOCIATES<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> AUSTIN COLLEGE<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> ALDEN’S MUSIC SUPPLY<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> BOOKER T. WASHINGTON PTSA</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/3.jpg"/><span class="label">BEARFOOT HIKING BOOTS<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> GARRET VIDEO<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> HOME DEPOT HUSKY<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> ALBERTO CERCONE TAILOR</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/4.jpg"/><span class="label">RUMBLE ROCKABILLY<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> LINEA JEWELRY<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> ANTLER ORCHARDS<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> FIREATERS SALSA</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/5.jpg"/><span class="label">CITYFAIR DEVELOPMENT<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> SNAKEBITE SALSA<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> HAROLD'S CLOTHIER<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> RICHARD REENS PHOTOGRAPHY</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/6.jpg"/><span class="label">LOMAS FINANCIAL<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> BEHRINGER HARVARD FINANCIAL<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> HILL ASSOCIATES<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> DALLAS ADVERTISING LEAGUE</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/7.jpg"/><span class="label">AFRICAN AMERICAN MUSEUM <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> MERRILL LYNCH NORTHEND FINANCIAL <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs">  DALLAS MUSEUM OF ART<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> TWINS & TAILS BATH OILS</span>
+        </div>
+        <div class="slide">
+        <img src="/images/marks/8.jpg"/>
+          <span class="label">SUNFISH SPORT FISHING CHARTERS<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> YAPAS HEALTH RESTAURANT <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs">  AFI FILM FESTIVAL<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> STUBB’S LEGENDARY KITCHENS</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/10.jpg"/><span class="label">MEDICAL CITY <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs">  NIGHT & DAY PHOTOGRAPHY EXHIBIT <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs">  VIRACOCHA MARTINI MASTERS <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs">  JOEY BELLADONNA</span>
+        </div>
+        <div class="slide">
+          <img src="/images/marks/9.jpg"/><span class="label">LEMMON GRASS THAI CUISINE<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> SERRANOS SPANISH FUSION <span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs">  BLOSSOM ASIAN CUISINE<span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp;</span><br class="visible-xs"> JEAN PHILLIPE FRENCH PASTRIES</span>
+        </div>        
+      </div>
+
+
+      <div id="product" class="content slideshow">
+        <div class="slide"><img src="/images/product/1.jpg"/><span class="label">TWINS & TAILS SCENTED BATH OILS</span></div>
+        <div class="slide"><img src="/images/product/2.jpg"/><span class="label">ANTLER ORCHARDS</span></div>
+        <div class="slide"><img src="/images/product/3.jpg"/><span class="label">FROZEN GHOST VODKA</span></div>
+        <div class="slide"><img src="/images/product/4.jpg"/><span class="label">EL PASO CHILE / CHIPS & SALSA</span></div>
+        <div class="slide"><img src="/images/product/5.jpg"/><span class="label">EL PASO CHILE / BEAN DIP ASSORTMENT</span></div>
+        <div class="slide"><img src="/images/product/6.jpg"/><span class="label">DR. PEPPER / DEJA BLUE </span></div>
+        <div class="slide"><img src="/images/product/7.jpg"/><span class="label">TEQUILA NACIONAL / ANEJO ESPECIAL</span></div>
+        <div class="slide"><img src="/images/product/8.jpg"/><span class="label">TEQUILA NACIONAL / SILVER</span></div>
+        <div class="slide"><img src="/images/product/9.jpg"/><span class="label">STUBB’S LEGENDARY KITCHEN / REBRAND</span></div>
+        <div class="slide"><img src="/images/product/10.jpg"/><span class="label">MOM’S PASTA SAUCE / REBRAND</span></div>
+
+      </div>
+      <div id="contact" class="content"><br>
+        <p>Submit your inquiries to:<br>
+        <a href="mailto:luis_acevedo@insidethink.com">luis_acevedo@insidethink.com</a></p>
+
+      
+      </div>
+
+    </div>
+  </body>
+</html>
