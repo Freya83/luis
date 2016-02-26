@@ -32,7 +32,7 @@ if (isset ($_POST['submit']) && strlen($_POST['password']) > 0) {
 <a class="navbar-brand active-left" href="#"><h1>Luis Acevedo</h1><img src="/images/logo-white.png"></a>
 
 <form id="myform" action="index.php" method="post">
-<span style="color: #ff0000; margin-left: 20px;">
+<span style="color: #ff0000;">
 <input type="password" name="password" maxlength="12" size="12" placeholder="PASSWORD" class="pass" />
 <input type="submit" name="submit" value="unlock" class="btn" />
 </span></p>
